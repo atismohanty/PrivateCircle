@@ -8,6 +8,7 @@ import { FiltersComponent } from './filters/filters.component';
 import { HistoryComponent } from './history/history.component';
 import { DescriptionComponent } from './description/description.component';
 import { CustomerComponent } from './customer/customer.component';
+import { AdminpageComponent } from './adminpage/adminpage.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { CustomerComponent } from './customer/customer.component';
     FiltersComponent,
     HistoryComponent,
     DescriptionComponent,
-    CustomerComponent
+    CustomerComponent,
+    AdminpageComponent
   ],
   imports: [
     BrowserModule,
