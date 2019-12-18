@@ -1,0 +1,44 @@
+
+  <div class="container-main">
+    <div class="content-left">
+        <div class="table">
+            <div class="row-header">
+              <div class="header-column">
+                Date
+              </div>
+              <div class="header-column">
+                List Name
+              </div>
+              <div class="header-column">
+                No. of Entities
+              </div>
+              <div class="header-column">
+                Actions
+              </div>
+              <div class="header-column">
+                <pre>    </pre>
+              </div>
+            </div>
+        
+            <div class="row-data" *ngFor="let rowData of data">
+              <div class="data-column" *ngFor="let columndata of rowData">
+                {{columndata}}
+               
+              </div>
+              <div class="data-column">
+                <i class='fas fa-mail-bulk'></i>
+                <i class='fas fa-share-alt'></i>
+                <i class='fas fa-edit'></i>
+              </div>
+              <div class="data-column">
+                <button class="btn" (click)="resetLoaded()"> Details </button>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="content-right" *ngIf="loaded">
+
+      <app-description></app-description>
+    </div>
+  </div>

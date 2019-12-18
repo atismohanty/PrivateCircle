@@ -1,0 +1,56 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.flex-container
+{
+    display: flex;
+    flex-direction: row;
+}
+.lists-left
+{
+    width: 50%;
+    float: left;
+}
+
+.search
+{
+    width: 50%;
+    float: right;
+}
+
+.navbar{
+    width: 100%;
+    background-color: rgb(245, 243, 252);
+    padding: 10px;
+
+}
+
+
+a
+{
+    padding: 5px;
+    margin: 5px;
+
+    border: none;
+    text-decoration: none;
+display: inline-block;
+}
+
+
+a:focus
+{
+    background-color:rgb(22, 22, 82);
+    color: oldlace;
+
+}
+
+.searchbox
+{
+    width: 500px;
+    padding: 5px;
+    margin: 5px;
+    float: right;
+}
+
