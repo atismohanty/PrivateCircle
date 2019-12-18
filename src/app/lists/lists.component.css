@@ -75,3 +75,9 @@ display: inline-block;
 .data-column{
     flex:1;
 }
+.some-class {
+    text-align:center;
+}
+.some-other-class{
+    text-align:center;
+}
