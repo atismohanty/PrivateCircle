@@ -7,6 +7,7 @@ import { ListsComponent } from './lists/lists.component';
 import { FiltersComponent } from './filters/filters.component';
 import { HistoryComponent } from './history/history.component';
 import { DescriptionComponent } from './description/description.component';
+import { CustomerComponent } from './customer/customer.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { DescriptionComponent } from './description/description.component';
     ListsComponent,
     FiltersComponent,
     HistoryComponent,
-    DescriptionComponent
+    DescriptionComponent,
+    CustomerComponent
   ],
   imports: [
     BrowserModule,
